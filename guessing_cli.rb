@@ -13,7 +13,7 @@ def run_guessing_game
     puts "You guessed the correct number!"
     puts "Guess a number between 1 and 6"
     user_input = gets.chomp
-  else user_input != number
+  else
     puts "The computer guessed #{number}."
     elsif user_input == "exit"
       exit_game
