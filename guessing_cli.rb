@@ -6,7 +6,7 @@ end
 
 def run_guessing_game
   number = rand(1..6)
-  puts "Guess a number between 1 and 6"
+  puts /Guess a number between 1 and 6/
   user_input = gets.chomp 
   while user_input != "exit"
   if user_input == number
