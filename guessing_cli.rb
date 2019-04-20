@@ -19,3 +19,5 @@ def run_guessing_game
     user_input = gets.chomp
   end
 end
+exit_game
+end
