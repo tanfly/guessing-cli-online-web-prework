@@ -2,6 +2,8 @@ def exit_game
   puts "Goodbye!"
 end
 
+
+
 def run_guessing_game
   number = rand
   puts "Pick a number"
