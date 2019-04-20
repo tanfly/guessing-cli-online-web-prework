@@ -14,7 +14,6 @@ def run_guessing_game
     puts "The computer guessed #{number}."
     elsif user_input == "exit"
       exit_game
-      break
     end
   end
 end
