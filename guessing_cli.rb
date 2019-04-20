@@ -15,5 +15,6 @@ def run_guessing_game
     elsif user_input == "exit"
       exit_game
     end
+    end
   end
 end
