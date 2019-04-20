@@ -5,4 +5,6 @@ def run_guessing_game
   while user_input != "exit"
   if user_input == number
     puts "You guessed the correct number!"
+  else 
+    puts "The computer guessed #{number}"
 end
