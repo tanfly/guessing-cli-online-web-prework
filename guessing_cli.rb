@@ -17,7 +17,5 @@ def run_guessing_game
     puts "The computer guessed #{number}."
     puts "Try again"
     user_input = gets.chomp
-    elsif user_input == "exit"
-      exit_game
-    end
   end
+end
